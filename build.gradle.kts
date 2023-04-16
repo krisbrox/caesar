@@ -11,6 +11,7 @@ repositories {
 }
 
 dependencies {
+    testImplementation("org.awaitility:awaitility:4.2.0")
     testImplementation(kotlin("test"))
     testImplementation("org.assertj:assertj-core:3.24.2")
 }
